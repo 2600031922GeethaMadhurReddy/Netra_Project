@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Library Membership</title>
+    <h1>College Library Membership</h1>
+    <p>Welcome to the <strong> college library.</strong>Explore books and build your knowledge<br>
+    Read the instructions beforre applying</p>
+    <a href="https://www.kluniversity.in/lib/member.aspx">Go to membership Form</a>
+    <hr>
+    <h1> 1. Lists </h1>
+<strong>Documents Required</strong> 
+        <ul> 
+            <li> Student ID Card </li>
+            <li> Passport Size Photo </li>      
+        </ul> 
+        <ol> 
+<strong>Application Steps</strong> 
+        <li> Choose a member type </li>
+        <li> Complete the form </li>
+        <li> Visit the library</li>
+        </ol>
+        <strong>ISBN</strong> 
+        <P> international Standard Book Number</P>
+       <h2>2. Library Hours</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Opening</th>
+            <th>Closing</th>
+        </tr>
+        <tr>
+            <td>Monday to Friday</td>
+            <td>9:00 AM</td>
+            <td>6:00 PM</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>9:00 AM</td>
+            <td>1:00 PM</td>
+        </tr>
+    </table>
+    <hr>   
+    <h2>3. Inline Frame</h2>
+    <iframe
+    title="Library notice"
+    width="400"
+    height="75" 
+    srcdoc="<strong>Library Notice<strong><p>Return borrowed books within 14 days.</p>">
+</iframe>
+    <hr>     
+    <h2>4. Membership Form</h2>
+    <form action="" method="post">
+    <label for="full name">Full Name</label>
+    <input type="text" name="FullName" id="FullName" placeholder="Enter Full Name" /><br><br>
+   <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Email" /><br><br>
+               <label for="membership-type">Membership:</label>
+                    <select id="membership-type" name="membership-type">
+                        <option value="">Select a type</option>
+                        <option value="student">Student</option>
+                        <option value="faculty">Faculty</option>
+                    </select>
+            <br>
+                <label>Reading Mode:</label>
+                    <input type="radio" id="print" name="reading_mode" value="print">
+                    <label for="print">Print</label>
+                    <input type="radio" id="digital" name="reading_mode" value="digital">
+                    <label for="digital">Digital</label>
+                    <br>
+    <label>Intrest</label>
+    <input type="checkbox" name="Intrest" id="Science" value="Science" />
+    <label for="Science">Science</label>
+    <input type="checkbox" name="Intrest" id="Digital" value="Digital" />
+    <label for="Digital">Digital</label>
+
+    <label for="address">Address</label><br>
+    <textarea name="address" id="address" cols="50" rows="2"></textarea><br><br>
+   <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I agree to the library rules.</label>
+        <br><br>
+    <input type="button" value="apply">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+    </head>
+</html>
